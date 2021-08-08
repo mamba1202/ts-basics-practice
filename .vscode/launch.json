@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        
+        {
+        "name": "ts-node",
+        "type": "node",
+        "request": "launch",
+        "program": "/node/node_global/node_modules/ts-node/dist/bin.js",
+        "args": ["${relativeFile}"],
+        "cwd": "${workspaceRoot}",
+        "protocol": "inspector"
+        }
+    ]
+}
